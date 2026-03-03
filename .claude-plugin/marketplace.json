@@ -1,0 +1,23 @@
+{
+  "name": "ios-binary-size-reduction",
+  "owner": {
+    "name": "ehmo",
+    "url": "https://github.com/ehmo"
+  },
+  "metadata": {
+    "description": "Codex skill for staged iOS binary size reduction with security-aware gates.",
+    "version": "1.0.0",
+    "repository": "https://github.com/ehmo/ios-binary-size-reduction"
+  },
+  "plugins": [
+    {
+      "name": "ios-binary-size-reduction",
+      "description": "Single skill for iOS binary size reduction through staged compiler/linker/resource/dependency passes.",
+      "source": "./",
+      "strict": true,
+      "skills": [
+        "./skills/ios-binary-size-reduction"
+      ]
+    }
+  ]
+}

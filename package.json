@@ -1,0 +1,20 @@
+{
+  "name": "ios-binary-size-reduction",
+  "version": "1.0.2",
+  "description": "Staged, security-aware iOS binary size reduction guidance for production Swift/Xcode projects.",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skill",
+    "ios",
+    "xcode",
+    "swift",
+    "binary-size"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "skills/**",
+    ".claude-plugin/marketplace.json"
+  ]
+}
